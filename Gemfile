@@ -34,7 +34,6 @@ gem 'cairo'
 gem 'jquery-rails'
 gem 'bootstrap',     '~> 4.1.1'
 gem 'material-sass', '~> 4.1.1'
-gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
