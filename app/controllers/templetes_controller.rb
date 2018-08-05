@@ -35,6 +35,8 @@ class TempletesController < ApplicationController
 
 
 
+
+
   end
   private
 
