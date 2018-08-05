@@ -1,0 +1,56 @@
+<div class="container">
+
+
+  <h1>落合フォーマットジェネレータ</h1>
+
+  <div class="row">
+    <div class="col-md-12">
+
+      <%= form_for(@templete) do |f| %>
+        <div class="form-group">
+
+          <%= f.label :title, 'タイトル' %>
+          <%= f.text_field :title %>
+
+          <%= f.label :author, '著者' %>
+          <%= f.text_field :author %>
+
+        </div>
+        <div class="form-group">
+
+          <%= f.label :what_thing, 'どんなもの？' %>
+          <%= f.text_area :what_thing, :maxlength => "150" %>
+        </div>
+        <div class="form-group">
+
+          <%= f.label :where_good, '先行研究と比べてどこがすごい？' %>
+          <%= f.text_area :where_good, :maxlength => "150" %>
+        </div>
+        <div class="form-group">
+
+          <%= f.label :where_kimo, '技術や手法のキモはどこ？' %>
+          <%= f.text_area :where_kimo, :maxlength => "150" %>
+        </div>
+        <div class="form-group">
+
+          <%= f.label :how_effective, 'どうやって有効だと検証した？' %>
+          <%= f.text_area :how_effective, :maxlength => "150" %>
+        </div>
+        <div class="form-group">
+
+          <%= f.label :what_discussion, '議論はある？' %>
+          <%= f.text_area :what_discussion, :maxlength => "150" %>
+        </div>
+        <div class="form-group">
+
+          <%= f.label :what_next, '次に読むべき論文は？' %>
+          <%= f.text_area :what_next, :maxlength => "150" %>
+        </div>
+
+
+        <%= f.submit "画像を生成する", class: "btn btn-primary" %>
+      <% end %>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,2 @@
+module GenerateFormatHelper
+end
