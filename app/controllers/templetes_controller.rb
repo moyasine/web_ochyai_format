@@ -31,12 +31,6 @@ class TempletesController < ApplicationController
 
     send_file "#{@templete.title}.png", type: 'image/png', disposition: 'inline'
 
-
-
-
-
-
-
   end
   private
 
