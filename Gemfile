@@ -33,6 +33,7 @@ gem 'cairo'
 gem 'jquery-rails'
 gem 'bootstrap',     '~> 4.1.1'
 gem 'material-sass', '~> 4.1.1'
+gem 'gobject-introspection'
 gem 'pg', group: :production
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
