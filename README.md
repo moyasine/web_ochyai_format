@@ -3,6 +3,7 @@
 * Install
 
 bundle install
+
 rails s
 
 * 問題点
